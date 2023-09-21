@@ -1,0 +1,104 @@
+body {
+	 background-color: lightpink;
+   font-family: Futura;
+	 margin: 1rem auto;
+	 max-width: 65rem;
+}
+
+h2{
+font-family: 'Oleo Script Swash Caps', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+h1 {
+	 text-align: center;
+	 margin-bottom: 1rem;
+   font-size: 8rem;
+   font-family: Poppins;
+   font-weight: 100;
+   text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  color: #e75480; 
+}
+
+
+
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*disco*/
+.disco {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1faa9.png) 36 36, auto;
+}
+
+/*phone*/
+.phone {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4f2.png) 36 36, auto;
+}
+
+/*trophy*/
+.trophy {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3c6.png) 36 36, auto;
+}
+
+section{
+  display:flex;
+}
+
+.tooltiptext{
+  visibility: hidden;
+}
+
+.mentalhealth:hover .tooltiptext{
+  visibility: visible;
+}
+
+.agency:hover .tooltiptext{
+  visibility: visible;
+}
+
+.agency:hover .tooltiptext{
+  visibility: visible;
+}
+
+.trophy:hover .tooltiptext{
+  visibility: visible;
+}
+
+figure {
+	 align-self: flex-start;
+	 display: flex;
+	 top: 3rem;
+   position: sticky:
+}
+ @media screen and (min-width: 35rem) {
+	 figure {
+		 position: sticky;
+	}
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: hotpink;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  left: 10%;
+  
+  button {
+  background-color: #9349DC;; /* Violet */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
